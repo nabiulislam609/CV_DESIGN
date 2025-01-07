@@ -39,7 +39,7 @@ p {
 .contact {
     padding: 30px 0 30px 0;
 }
-i {
+.contact i {
     background-color: white;
     color: #247C6E;
     height: 28px;
@@ -75,7 +75,190 @@ ul li {
     text-align: center;
     padding: 6px;
 }
+.contact-me {
+    font-size: 1rem;
+    padding: 5px 30px;
+    color: white;
+}
+.contact1 {
+    background-color: white;
+    color: #247C6E;
+    text-align: center;
+    padding: 6px;
+}
+.contactbtn1 {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+#cbtn {
+    background-color: white;
+    color: #247C6E;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 8px;
+    
+}
+
+
+
 .information {
-    background-color: gray;
-    height: 100vh;
+    height: 100%;
+}
+.fname {
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px 0 0 15px;
+    color: #247C6E;
+}
+.lname {
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #247C6E;
+}
+.title-bar {
+    margin-left: 15px;
+    padding-top: 20px;
+}
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #247C6E;
+}
+.detial {
+   padding-top: 5px;
+   color: #247C6E;
+   text-align: justify;
+}
+.experence-bar {
+    margin-left: 15px;
+    padding-top: 30px;
+}
+.experence {
+    background-color: #247C6E;
+    color: white;
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.timeline {
+    position: relative;
+    padding-left: 10px;
+}
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 4px;
+    height: 100%;
+    background-color: #cccccc;
+}
+.entry {
+    margin-bottom: 20px;
+    position: relative;
+}
+.entry::before {
+    content: "";
+    position: absolute;
+    left: -17px;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 50%;
+}
+.entry .exp1 {
+    margin: 0;
+    padding-top: 13px;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.entry .date {
+    margin: 0;
+    font-size: 1rem;
+    font-style: italic;
+    color: #555555;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+.entry .detls {
+    margin: 5px 0 0 0;
+    font-size: 1rem;
+    color: #666666;
+    padding-top: 6px;
+    padding-left: 10px;
+    text-align: justify;
+}
+.education-bar {
+    margin-left: 15px;
+    padding-top: 30px;
+}
+.education {
+    background-color: #247C6E;
+    color: white;
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.timeline {
+    position: relative;
+    padding-left: 10px;
+}
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 4px;
+    height: 100%;
+    background-color: #cccccc;
+}
+.entry {
+    margin-bottom: 20px;
+    position: relative;
+}
+.entry::before {
+    content: "";
+    position: absolute;
+    left: -17px;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 50%;
+}
+.entry .edu {
+    margin: 0;
+    padding-top: 13px;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.entry .date {
+    margin: 0;
+    font-size: 1rem;
+    font-style: italic;
+    color: #555555;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+.entry .detls {
+    margin: 5px 0 0 0;
+    font-size: 1rem;
+    color: #666666;
+    padding-top: 6px;
+    padding-left: 10px;
+    text-align: justify;
+    font-size: 1.5rem;
 }
